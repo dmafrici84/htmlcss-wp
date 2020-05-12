@@ -1,0 +1,203 @@
+/* impostazioni generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+  background-size: contain;
+}
+#contenitorepagina {
+  width: 70%;
+  margin: 12px auto;
+}
+/* impostazioni header */
+header {
+  height: 300px;
+}
+#immagineheader{
+  height: 250px;
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  border: solid 10px white;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+h1 {
+  width: 80%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+}
+#sottotitolo {
+  width: 80%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding-top: 10px;
+  font-size: 25px;
+}
+nav{
+  background-color: #504741;
+}
+nav > ul {
+  text-align: center;
+}
+.linkheader {
+  width: 13%;
+  height: 40px;
+  display: inline-block;
+  padding: 12px 0;
+  border-right: solid 1px rgba(0, 0, 0, .4);
+}
+.linkheader:hover {
+  background-color: #363131;
+}
+.testolinkheader {
+  font-size: 15px;
+  color: #999999;
+  text-decoration: none;
+  text-align: center;
+}
+/* impostazioni parte principale*/
+/* impostazioni blocco che contiene le tre sezioni */
+.contenitorecolonne {
+  margin: 5px 0;
+}
+/* impostazioni delle tre sezioni */
+.contenitorecolonne::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.colonne {
+  float: left;
+  width: 20%;
+  border-radius: 10px;
+  background-color: white;
+}
+.colonnasinistra{
+  padding: 5px;
+}
+.colonnasinistra::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wifi{
+  float: left;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.h3colsx {
+  float: left;
+  width: 40%;
+  margin: 0 10px;
+  font-size: 22px;
+  color: #999999;
+}
+.ulcolonnasx {
+  list-style-type: none;
+}
+.linkcolonnasx {
+  margin-top: 10px;
+}
+.linkcolonnasx:hover {
+  background-color: #999999;
+}
+.testolinkcolsx {
+  font-size: 18px;
+  color: green;
+  text-decoration: none;
+}
+.testolinkcolsx:hover {
+  text-decoration: underline;
+}
+/* IMPOSTAZIONI COLANNA CENTRALE */
+.colonnacentrale{
+  margin: 0 5%;
+  width: 50%;
+  padding: 20px 5px 0;
+}
+.h3colcentrale {
+  font-size: 25px;
+  color: #999999;
+  text-decoration: none;
+}
+.h3colcentrale:hover {
+  color: green;
+}
+.paragrafocolcentrale {
+  padding-top: 30px;
+  font-size: 18px;
+}
+/* impostazioni colonna di destra */
+.colonnadestra {
+  padding: 20px 5px;
+}
+/* impostazioni blocchi all'interno della sezione di destra */
+.bloccocoldestra {
+  margin-bottom: 10px;
+}
+.h3colonnadx {
+  font-size: 20px;
+}
+.paragrafocoldx {
+  padding-top: 15px;
+  font-size: 15px;
+}
+/* impostazioni footer */
+footer {
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+footer > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:20px;
+  color: #999999;
+  border-bottom: solid 1px #999999;
+  text-align: center;
+}
+.contenitoreimgfooter{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+}
+.contenitoreimgfooter::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.immaginifooter{
+  float: left;
+  width: 33%;
+  height: 80px;
+  position: relative;
+}
+.fbinstgit{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
